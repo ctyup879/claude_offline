@@ -88,23 +88,38 @@ bash download-offline-packages.sh
 > ========================================
 >
 > 正在获取最新版本...
->   URL: https://storage.googleapis.com/claude-code-dist-...
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/latest
 > 最新版本: 2.1.87
 >
 > 正在下载 manifest.json...
+>   保存到: /path/to/offline-claude/downloads/manifest.json
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.87/manifest.json
 > manifest.json 下载完成
 >
 > ========================================
 > 开始下载各平台二进制文件...
 > ========================================
 >
+> ----------------------------------------
 > 平台: linux-x64
+>   版本: 2.1.87
+>   保存到: /path/to/offline-claude/downloads/claude-2.1.87-linux-x64
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.87/linux-x64/claude
+>   期望Checksum: b1a5b89469862adee0e4dc28cab5a8314bc4d0117e19ab26a7b7ff7ce9b59bd5
 >   ✅ 文件已存在，Checksum 匹配，跳过下载
 >
+> ----------------------------------------
 > 平台: win32-x64
+>   版本: 2.1.87
+>   保存到: /path/to/offline-claude/downloads/claude-2.1.87-win32-x64.exe
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.87/win32-x64/claude.exe
+>   期望Checksum: c722ff8836e7a90b5c62fd5cb6549887dc314e7e8d9551c01df1718d9198ecdf
 >   ✅ 下载完成 (228M)
 >
+> ...
+> ========================================
 > ✅ 下载完成！
+> ========================================
 > ```
 
 ### 2. 拷贝到离线环境
@@ -139,15 +154,30 @@ bash install-offline.sh
 > ========================================
 >
 > 正在获取最新版本...
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/latest
 > 最新版本: 2.1.87
 >
 > 正在下载 manifest.json...
+>   保存到: C:\path\to\offline-claude\downloads\manifest.json
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.87/manifest.json
 > manifest.json 下载完成
 >
+> ========================================
+> 开始下载 Windows 版二进制文件...
+> ========================================
+>
+> ----------------------------------------
 > 平台: win32-x64
+>   版本: 2.1.87
+>   保存到: C:\path\to\offline-claude\downloads\claude-2.1.87-win32-x64.exe
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.87/win32-x64/claude.exe
+>   期望Checksum: c722ff8836e7a90b5c62fd5cb6549887dc314e7e8d9551c01df1718d9198ecdf
 >   ✅ 下载完成 (227.32 MB)
 >
+> ...
+> ========================================
 > ✅ 下载完成！
+> ========================================
 > ```
 
 ### 2. 拷贝到离线环境

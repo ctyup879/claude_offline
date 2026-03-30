@@ -88,23 +88,38 @@ bash download-offline-packages.sh
 > ========================================
 >
 > Fetching latest version...
->   URL: https://storage.googleapis.com/claude-code-dist-...
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/latest
 > Latest version: 2.1.87
 >
 > Downloading manifest.json...
+>   Save to: /path/to/offline-claude/downloads/manifest.json
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.87/manifest.json
 > manifest.json downloaded
 >
 > ========================================
 > Downloading binaries for all platforms...
 > ========================================
 >
+> ----------------------------------------
 > Platform: linux-x64
+>   Version: 2.1.87
+>   Save to: /path/to/offline-claude/downloads/claude-2.1.87-linux-x64
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.87/linux-x64/claude
+>   Expected Checksum: b1a5b89469862adee0e4dc28cab5a8314bc4d0117e19ab26a7b7ff7ce9b59bd5
 >   ✅ File exists, checksum matches, skipping
 >
+> ----------------------------------------
 > Platform: win32-x64
+>   Version: 2.1.87
+>   Save to: /path/to/offline-claude/downloads/claude-2.1.87-win32-x64.exe
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.87/win32-x64/claude.exe
+>   Expected Checksum: c722ff8836e7a90b5c62fd5cb6549887dc314e7e8d9551c01df1718d9198ecdf
 >   ✅ Downloaded (228M)
 >
+> ...
+> ========================================
 > ✅ Download complete!
+> ========================================
 > ```
 
 ### 2. Copy to offline environment
@@ -139,15 +154,30 @@ bash install-offline.sh
 > ========================================
 >
 > Fetching latest version...
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/latest
 > Latest version: 2.1.87
 >
 > Downloading manifest.json...
+>   Save to: C:\path\to\offline-claude\downloads\manifest.json
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.87/manifest.json
 > manifest.json downloaded
 >
+> ========================================
+> Downloading Windows binaries...
+> ========================================
+>
+> ----------------------------------------
 > Platform: win32-x64
+>   Version: 2.1.87
+>   Save to: C:\path\to\offline-claude\downloads\claude-2.1.87-win32-x64.exe
+>   URL: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.87/win32-x64/claude.exe
+>   Expected Checksum: c722ff8836e7a90b5c62fd5cb6549887dc314e7e8d9551c01df1718d9198ecdf
 >   ✅ Downloaded (227.32 MB)
 >
+> ...
+> ========================================
 > ✅ Download complete!
+> ========================================
 > ```
 
 ### 2. Copy to offline environment
