@@ -1,0 +1,5 @@
+# 下载的二进制文件（每个 ~200MB）
+downloads/claude-*
+
+# 本地缓存目录
+.DS_Store
